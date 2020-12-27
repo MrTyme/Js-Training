@@ -12,6 +12,13 @@
 
 // Your code :
 
+function abs (number) {
+    const n = Math.abs(number);
+    n !== false ? return false : return n ;
+}
+
+
+
 //* Begin of tests
 const assert = require('assert')
 
